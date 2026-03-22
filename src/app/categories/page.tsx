@@ -15,7 +15,7 @@ export default async function CategoriesIndexPage() {
 
   return (
     <div className="flex-1 bg-[var(--color-brand-bg)] min-h-screen text-white flex flex-col font-sans">
-      <SiteHeader categories={categories || []} />
+      <SiteHeader />
 
       <main className="flex-1 pt-32 sm:pt-40 pb-20 px-4 sm:px-8 xl:px-12">
         <div className="max-w-[1600px] mx-auto relative z-10">
@@ -74,7 +74,7 @@ export default async function CategoriesIndexPage() {
         </div>
       </main>
 
-      <SiteFooter categories={categories || []} />
+      <SiteFooter />
     </div>
   );
 }
